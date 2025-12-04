@@ -30,8 +30,11 @@ Each image normalized independently, so the network can't learn absolute intensi
 
 Best for: Medical images from different machines/settings, varying exposure conditions
 
+
+
 2. Dataset-Level Normalization if images look similar in brightness/contrast
 __________________CODE:
+
 python# Calculate once on training set
 
 train_mean = np.mean(all_training_images)
@@ -39,7 +42,9 @@ train_mean = np.mean(all_training_images)
 train_std = np.std(all_training_images)
 
 COMMENT: Apply to each image
+
 normalized_image = (image - train_mean) / train_std
+
 _______________________
 Pros:
 
