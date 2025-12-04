@@ -1,6 +1,7 @@
 # CHALLENGE-2---Ibuprofen
 
-
+Possibili cose su cui lavorare.
+______________________________________
 RECEPTIVE FIELD dimension
 
 Because different tasks need neurons to capture different types of information:
