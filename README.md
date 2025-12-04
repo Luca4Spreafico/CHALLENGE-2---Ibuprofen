@@ -47,7 +47,7 @@ COMMENT: Apply to each image
 
 normalized_image = (image - train_mean) / train_std
 
-_______________________
+
 Pros:
 
 Preserves relative intensity differences between images
