@@ -30,9 +30,11 @@ Each image normalized independently, so the network can't learn absolute intensi
 
 Best for: Medical images from different machines/settings, varying exposure conditions
 
+___
 
 
 2. Dataset-Level Normalization if images look similar in brightness/contrast
+
 __________________CODE:
 
 python# Calculate once on training set
