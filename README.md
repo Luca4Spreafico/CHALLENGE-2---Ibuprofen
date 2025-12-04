@@ -38,7 +38,7 @@ train_mean = np.mean(all_training_images)
 
 train_std = np.std(all_training_images)
 
-# Apply to each image
+COMMENT: Apply to each image
 normalized_image = (image - train_mean) / train_std
 _______________________
 Pros:
