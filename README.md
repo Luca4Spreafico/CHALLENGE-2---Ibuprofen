@@ -8,7 +8,7 @@ If /255 doesn't work well, try:
 
 
 
-1. Per-Image Normalization (Z-score) if images look very different from each other
+____1. Per-Image Normalization (Z-score) if images look very different from each other
 
 CODE:   pythonnormalized_image = (image - image.mean()) / image.std()
 
@@ -30,10 +30,8 @@ Each image normalized independently, so the network can't learn absolute intensi
 
 Best for: Medical images from different machines/settings, varying exposure conditions
 
-___
 
-
-2. Dataset-Level Normalization if images look similar in brightness/contrast
+___2. Dataset-Level Normalization if images look similar in brightness/contrast
 
 __________________CODE:
 
