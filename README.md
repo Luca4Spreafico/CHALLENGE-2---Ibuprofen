@@ -10,14 +10,19 @@ __ TESTING
 
 Image dimension statistics:
   Height range: 1024 - 4752 pixels (mean: 1323.4)
+  
   Width range: 1024 - 6158 pixels (mean: 1271.3)
+  
   Number of unique dimension combinations: 544
+  
 
 __ TRAINING
 
 Image dimension statistics:
   Height range: 1024 - 4233 pixels (mean: 1341.4)
+  
   Width range: 1024 - 3970 pixels (mean: 1252.3)
+  
   Number of unique dimension combinations: 639
 
 __ Padding the images with different dimensions
