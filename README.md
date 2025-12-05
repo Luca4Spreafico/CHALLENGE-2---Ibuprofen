@@ -1,6 +1,11 @@
 # CHALLENGE-2---Ibuprofen
 
 Possibili cose su cui lavorare.
+
+______________________________________
+
+Padding the images with different dimensions
+
 ______________________________________
 
 NORMALIZATION
