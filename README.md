@@ -90,6 +90,15 @@ Less robust if train/test images come from different sources
 
 Best for: Consistent imaging conditions, large datasets, when absolute intensity matters
 
+3. Standard Input Ranges for CNNs
+4. 
+In most deep learning frameworks, your input images (originally 0 to 255 per channel) should be scaled to a standardized numerical range.
+
+[0, 1] Range: The most common approach. Each pixel value is divided by 255.
+
+[-1, 1] Range: Frequently used with certain architectures (like Xception or GANs).
+
+Standardization (Z-score): Subtracting the mean and dividing by the standard deviation of your dataset (or a benchmark like ImageNet). This centers the numerical values around zero.
 ________________________________________________________________________
 RECEPTIVE FIELD dimension
 
